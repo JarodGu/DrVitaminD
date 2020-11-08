@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Program2Weather": {
+      "commandName": "Project",
+      "commandLineArgs": "Bothell"
+    }
+  }
+}

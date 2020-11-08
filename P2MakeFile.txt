@@ -1,0 +1,9 @@
+Jarod Guerrero - CSS 436 A - 10/19/19
+Program2Weather Build Instructions:
+-----------------------------------
+1. Add the latest installed version of the .NET Visual C# Compiler to system path
+		More information here: https://jrliv.com/post/get-started-using-csharp-without-visual-studio/
+
+2. Run the included "P2Build.bat" batch file to build Program2Weather.exe
+3. Run the program with city.list.json in the same directory 
+	while passing in a city name argument
