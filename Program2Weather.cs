@@ -1,8 +1,8 @@
 ﻿/*
  * Jarod Guerrero
- * CSS 436 A - Cloud Computing
+ * CSS FourThree A - Cloud Computing
  * 10/19/19
- * Program 2 - REST
+ * REST
  * 
  * Takes as input the name of a city and outputs licensed medical
  * doctor Vincent-Denache's (Dr. D for short) recommended daily Vitamin D
@@ -217,7 +217,7 @@ namespace Program2Weather
                 {
                     weather += ("id=" + cityCode.ToString());
                 }
-                weather += "&APPID=b150f89f9b07b2f7114042120942f80f";
+                weather += "&APPID=";
                 // Call OpenWeatherMap Current Weather API
                 HttpResponseMessage response = client.GetAsync(weather).Result;
                 string result = response.Content.ReadAsStringAsync().Result;
